@@ -113,13 +113,12 @@ display: flex;
 .nav
 {
 margin-right: 40px;
-
+color: #404bbf;
 }
 
 .nav-item
 {
 position: relative;
-color: #404bbf;
 transition: color var(--transition-dur-func);
 }
 
@@ -218,6 +217,7 @@ list-style: none;
 .contact-card
 {
 margin-right: 40px;
+transition: color var(--transition-dur-func);
 }
 
 .contact-card:last-child
@@ -489,6 +489,7 @@ height: 16px;
 {
 width: 40px;
 height: 40px;
+transition: color var(--transition-dur-func);
 }
 
 .team-media-link
@@ -549,7 +550,10 @@ fill: currentColor;
 
 height: 88px;
 width: calc((100% - 120px) / 6);
+}
 
+.customer-link
+{
 transition: border-color var(--transition-dur-func), color var(--transition-dur-func);
 }
 
@@ -666,6 +670,7 @@ border-radius: 50%;
 display: flex;
 align-items: center;
 justify-content: center;
+transition: background-color var(--transition-dur-func);
 }
 
 .social-media-link:hover,
@@ -677,8 +682,6 @@ background-color: var(--second-accent-color);
 .social-media-item
 {
 height: 40px;
-
-transition: background-color var(--transition-dur-func);
 }
 
 /* ================Portfolio============ */
@@ -739,12 +742,12 @@ transform: translate(0, 0);
 display: block;
 width: 360;
 
-transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-card
 {
 display: block;
+transition: box-shadow var(--transition-dur-func);
 }
 
 .portfolio-card:hover,
@@ -896,9 +899,10 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
 }
 
 .modal-close-btm:hover,
-.modal-close-btm
+.modal-close-btm:focus
 {
 background-color: #404bbf;
+border: none;
 }
 
 .modal-close-icon {
