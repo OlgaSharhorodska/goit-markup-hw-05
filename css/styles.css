@@ -113,7 +113,6 @@ display: flex;
 .nav
 {
 margin-right: 40px;
-
 }
 
 .nav-item
@@ -134,7 +133,7 @@ height: 4px;
 border-radius: 2px;
 bottom: -1px;
 
-background-color: #404bbf;
+background-color: none;
 }
 
 .active::after
@@ -274,7 +273,6 @@ background-color: var(--accent-color);
 
 padding: 16px 32px;
 gap: 10px;
-background: #4D5AE5;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 border-color: #4d5ae5;
