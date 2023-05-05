@@ -94,7 +94,7 @@ font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: var(--accent-color);
+color: #404bbf;
 text-decoration: none;
 
 margin-right: 76px;
@@ -119,7 +119,6 @@ margin-right: 40px;
 .nav-item
 {
 position: relative;
-color: #404bbf;
 transition: color var(--transition-dur-func);
 }
 
