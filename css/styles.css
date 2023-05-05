@@ -692,8 +692,8 @@ position: relative;
 overflow: hidden;
 }
 
-.portfolio-card:hover .portfolio-overlay-text
-.portfolio-card:focus .portfolio-overlay-text
+.portfolio-card:hover .portfolio-overlay
+.portfolio-card:focus .portfolio-overlay
 {
 transform: translateY(0);
 }
