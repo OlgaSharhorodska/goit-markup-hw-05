@@ -94,7 +94,7 @@ font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #404bbf;
+color: var(--accent-color);
 text-decoration: none;
 
 margin-right: 76px;
@@ -120,7 +120,6 @@ margin-right: 40px;
 {
 position: relative;
 color: #404bbf;
-
 transition: color var(--transition-dur-func);
 }
 
