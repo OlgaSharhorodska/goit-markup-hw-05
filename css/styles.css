@@ -121,26 +121,6 @@ position: relative;
 transition: color var(--transition-dur-func);
 }
 
-.nav-item::after
-{
-content:"";
-display: block;
-position: absolute;
-bottom: 0;
-left: 0;
-width: 100%;
-height: 4px;
-border-radius: 2px;
-bottom: -1px;
-
-background-color: none;
-}
-
-.active::after
-{
-background-color: #404bbf;
-}
-
 .nav:last-child
 {
 margin-right: 0px;
@@ -201,7 +181,7 @@ padding: 24px 0;
 .contact-item:hover,
 .contact-item:focus 
 {
-color: #404bbf ;   
+color: #404bbf;   
 }
 
 .contact-item
@@ -225,6 +205,20 @@ transition: color var(--transition-dur-func);
 
 .contact-card:last-child
 {margin-right: 0px;}
+
+.active::after {
+content: "";
+display: block;
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+height: 4px;
+border-radius: 2px;
+bottom: -1px;
+background-color: #404bbf;
+color: #404bbf;
+}
 
 /* =================HERO (section 1)=================== */
 .hero 
